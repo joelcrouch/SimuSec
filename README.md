@@ -18,7 +18,7 @@ This project is a home lab simulation of a multinational company to provide hand
 ---
 
 ## System Requirements
-I am just kinda making these up.  You could probably get away with fewere resources by using minified Linux versions.  
+I am just kinda making these up.  You could probably get away with fewere resources by using minified Linux versions.  Also the initial version will run on Linux, with a 'sudo' restricted user account, and internet disabled, such that taraffic will be modeled and ran and recorded using wireshark pcap, chron jobs, tcpreplay (for 'normal traffic').  All traffic will be via intranet,  between the VM's on the restricted user account.  
 - **Host Machine**:
   - CPU: 4-8 cores.
   - RAM: 16+ GB.
