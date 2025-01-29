@@ -218,6 +218,32 @@ Add automated attack simulations with scripts.
 Integrate network monitoring using Suricata or Zeek.
 Maybe Dockerize the whole thing?
 
+## Manageable Milestones to Track Progress: (these are wildly guesses)
+
+
+Basic Setup (1-2 weeks)
+    Set up web server, vulnerable app, attacker VM.
+    Simulate basic user traffic.
+    Set up basic logging (Suricata/Zeek).
+
+Attack Simulation (2-3 weeks)
+        Execute simple attacks (SQL injection, XSS).
+        Monitor attack logs.
+        Test the effect of attacks on the service.
+
+Service Expansion (2-3 weeks)
+        Add database server, employee workstations.
+        Introduce more services and simulated user behavior.
+        Set up network traffic replay.
+
+Advanced Monitoring/Logging (3-4 weeks)
+        Expand monitoring with a SIEM stack.
+        Configure alerts and automated responses.
+        Compare logs from different sources (attacker, employee, service).
+
+Dockerization (Optional - 1-2 weeks)
+        Containerize the experiment using Docker.
+        Make the environment portable and easily replicable.  
 
 
 Disclaimer
